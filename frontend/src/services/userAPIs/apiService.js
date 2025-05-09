@@ -150,6 +150,7 @@ export const updateUser = async (data) => {
     );
 
     if (response) {
+      toast.success("Successfully updated user details", { id: toastId });
       return response.data;
     } else {
       return null;

@@ -149,12 +149,20 @@ function ProfilePage() {
             <div className="p-5 -mt-12 text-center">
               <div className="relative w-24 h-24 mx-auto bg-primary/10 rounded-full border-4 border-card flex items-center justify-center overflow-hidden">
                 {user?.profile_image ? (
-                  <Image
-                    src={user.profile_image}
-                    alt="Profile"
-                    layout="fill"
-                    objectFit="cover"
-                  />
+                  <Avatar>
+                    <AvatarFallback>
+                      <User className="h-5 w-5" />
+                    </AvatarFallback>
+                    {user?.profile_image && (
+                      <AvatarImage
+                        src={user?.profile_image}
+                        alt="Profile Picture"
+                        width={100}
+                        height={32}
+                        className="rounded-full"
+                      />
+                    )}
+                  </Avatar>
                 ) : (
                   <User className="h-12 w-12 text-primary" />
                 )}

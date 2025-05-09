@@ -125,8 +125,8 @@ def update_profile(request):
 
         print(request.FILES)
 
-        if 'profile_picture' in request.FILES:
-            uploaded_file = request.FILES['profile_picture']
+        if 'profile_image' in request.FILES:
+            uploaded_file = request.FILES['profile_image']
 
             upload_result = upload(
                 uploaded_file,
