@@ -168,6 +168,9 @@ CampusConnect/
 
 2. **Backend Setup**
    ```bash
+   # Install Python virtual-env
+   pip install virtual-env
+   
    # Create and activate virtual environment
    python -m venv .venv
    
