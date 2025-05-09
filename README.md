@@ -12,7 +12,6 @@
 
 [Features](#-features) • 
 [Tech Stack](#%EF%B8%8F-tech-stack) • 
-[Demo](#-live-demo) • 
 [Installation](#-installation) • 
 [Documentation](#-documentation) • 
 [Contributing](#-contributing) • 
@@ -116,14 +115,6 @@ CampusConnect is a full-stack social media platform specifically designed for un
 
 ---
 
-## 🔍 Live Demo
-
-Check out our [live demo](https://campusconnect-demo.vercel.app) *(credential: demo@university.edu / password: demo123)*
-
-![QR Code to Demo](https://via.placeholder.com/150x150)
-
----
-
 ## 📦 Project Structure
 
 ```
@@ -195,10 +186,8 @@ CampusConnect/
    # Edit .env with your database and API credentials
    
    # Run migrations
+   python manage.py makemigrations
    python manage.py migrate
-   
-   # Create a superuser (admin)
-   python manage.py createsuperuser
    
    # Start development server
    python manage.py runserver
@@ -211,7 +200,6 @@ CampusConnect/
    npm install
    
    # Copy and configure environment variables
-   cp .env.example .env.local
    # Edit .env.local with your API URLs and Firebase config
    
    # Start development server
@@ -372,23 +360,23 @@ Please read our [Contributing Guidelines](./docs/contributing.md) for more detai
 
 ---
 
-## 👨‍💻 Core Team
+## 👨‍💻 Contributors
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/prasangeet">
-        <img src="https://avatars.githubusercontent.com/u/142200325?v=4" width="100px;" alt="John Doe"/><br />
-        <sub><b>Prasangeet</b></sub>
+        <img src="https://avatars.githubusercontent.com/u/142200325?v=4" width="100px;" style="border-radius: 50%" alt="Prasangeet"/><br />
+        <sub><b>Prasangeet Dongre</b></sub>
       </a><br />
-      <sub>Project Lead</sub>
+      <sub>👑 Project Lead & Full-Stack Developer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Mayu-infinite">
-        <img src="https://avatars.githubusercontent.com/u/141871018?v=4" width="100px;" alt="Jane Doe"/><br />
+        <img src="https://avatars.githubusercontent.com/u/141871018?v=4" width="100px;" style="border-radius: 50%" alt="Mayuri R. Pujari"/><br />
         <sub><b>Mayuri R. Pujari</b></sub>
       </a><br />
-      <sub>Frontend Lead</sub>
+      <sub>🎨 Frontend Lead & UI/UX Designer</sub>
     </td>
   </tr>
 </table>
