@@ -374,13 +374,6 @@ Please read our [Contributing Guidelines](./docs/contributing.md) for more detai
       </a><br />
       <sub>👑 Project Lead & Full-Stack Developer</sub>
     </td>
-    <td align="center">
-      <a href="https://github.com/Mayu-infinite">
-        <img src="https://avatars.githubusercontent.com/u/141871018?v=4" width="100px;" style="border-radius: 50%" alt="Mayuri R. Pujari"/><br />
-        <sub><b>Mayuri R. Pujari</b></sub>
-      </a><br />
-      <sub>🎨 Frontend Lead & UI/UX Designer</sub>
-    </td>
   </tr>
 </table>
 
